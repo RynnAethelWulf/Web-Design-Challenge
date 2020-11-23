@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center">A Responsive Web Visualization Dashboard using  HTML and CSS & Bootstrap 4 to create a dashboard showing off the weatheranalysis we've done.
+<p align="center">A Responsive Web Visualization Dashboard using  HTML and CSS & Bootstrap 4 to create a dashboard showing off the weatheranalysis.
     <br> 
 </p>
 
@@ -61,8 +61,8 @@ The table must be a bootstrap table component.
 
 
 ## ✍️ Hosting <a name = "trends"></a></br>
-<b>Website -Hosting</b>
-The built website can viwed on - https://weather-analysis-dashboard.netlify.app/
+<b>Website Hosting</b>
+The built website can viewed on - https://weather-analysis-dashboard.netlify.app/
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - UWA Data Science</br>
