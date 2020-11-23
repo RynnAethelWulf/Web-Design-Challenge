@@ -2,23 +2,57 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-size: 1rem;
+    font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar a:hover {
-    animation: mouse-hover;
+h1 {
+    font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    /* To remove the bold */
+}
+
+h4,
+h5 {
+    font-size: 2.8rem;
 }
 
 
-/* Landing Page */
+/* Navbar */
+
+.navigation {
+    margin: 0.5rem 1rem 0 1rem;
+}
+
+.dropdowm-menu,
+.nav-item a:hover {
+    animation: mouse-hover 1s ease-in forwards;
+    border-radius: 1rem;
+}
 
 .navbar-brand {
     font-family: 'Raleway', sans-serif;
     border-radius: 1rem;
     font-style: oblique;
-    padding: 0.5rem;
+    padding: 0.6rem;
     background-color: #08d8ce;
+    font-size: 2.8rem;
 }
 
 .dropdown-menu,
@@ -26,11 +60,23 @@
     font-style: oblique;
     padding: 0.5rem;
     font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
 }
 
+.vizualization {
+    float: left;
+}
+
+
+/* images */
+
 .visual-img {
-    width: 250px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+.visual-img:hover {
+    animation: img-hover 1s forwards;
 }
 
 .container {
@@ -40,9 +86,11 @@
 .box {
     margin-top: 40px;
     margin-bottom: 62px;
-    padding: 10px 20px 15px;
     color: black;
-    background-color: white;
+    background-color: rgb(253, 253, 253);
+    padding: 10px 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -68,7 +116,11 @@ footer {
     bottom: 0;
     width: 100%;
     padding-top: 15px;
+    font-size: 2.5rem;
 }
+
+
+/* Animations */
 
 @keyframes mouse-hover {
     from {
@@ -77,5 +129,24 @@ footer {
     to {
         background-color: #08d8ce;
         color: white;
+    }
+}
+
+@keyframes img-hover {
+    from {
+        border-color: white;
+    }
+    to {
+        border-color: #08d8ce;
+        border-style: solid;
+    }
+}
+
+@media(max-width: 992px) {
+    body {
+        font-size: calc(0.5em+1vw);
+    }
+    .vizualization {
+        float: none;
     }
 }
