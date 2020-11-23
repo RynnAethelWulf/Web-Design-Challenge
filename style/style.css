@@ -2,8 +2,12 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
+}
+
+.navbar a:hover {
+    animation: mouse-hover;
 }
 
 
@@ -22,4 +26,56 @@
     font-style: oblique;
     padding: 0.5rem;
     font-family: 'Raleway', sans-serif;
+}
+
+.visual-img {
+    width: 250px;
+    height: 200px;
+}
+
+.container {
+    width: 90%;
+}
+
+.box {
+    margin-top: 40px;
+    margin-bottom: 62px;
+    padding: 10px 20px 15px;
+    color: black;
+    background-color: white;
+}
+
+
+/* Table */
+
+.table {
+    border-top-color: white;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #666666;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #08d8ce;
+    color: white;
+    min-height: 55px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+
+@keyframes mouse-hover {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: #08d8ce;
+        color: white;
+    }
 }
