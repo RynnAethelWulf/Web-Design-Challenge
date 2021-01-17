@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Web Design Homework - Web Visualization Dashboard (Latitude)</h3>
+<h3 align="center">Web Design - Web Visualization Dashboard (Latitude)</h3>
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center">A Responsive Web Visualization Dashboard using  HTML and CSS & Bootstrap 4 to create a dashboard showing off the weatheranalysis.
+<p align="center">A Responsive Web Visualization Dashboard using  HTML, CSS & Bootstrap 4 in Flask framework to create a dashboard showing off the weatheranalysis.
     <br> 
 </p>
 
